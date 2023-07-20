@@ -2,12 +2,12 @@
 Python script that scrapes the internal web pages of HP Printers for data. 
 
 Prerequisites:
-  -Python installed on your machine : https://www.python.org/downloads/
+  - Python installed on your machine : https://www.python.org/downloads/
   - Requires the Pandas and BeautifulSoup library to be installed.
-      Pandas can be installed by running **pip install pandas** from command prompt or terminal window.
-      BeautifulSoup can be installed by running **pip install beautifulsoup4** from a command prompt or terminal window. 
-  -This script requires that you disable "Encrypt All Web Communication (not including IPP) on the printer. This can be done from the internal webpage under the Networking Tab >> Mgmt. Protocals.
-  -This allows the script to request the webpage, otherwise the script would fail to reach the webpage. 
+  - Pandas can be installed by running **pip install pandas** from command prompt or terminal window.
+  - BeautifulSoup can be installed by running **pip install beautifulsoup4** from a command prompt or terminal window. 
+  - This script requires that you disable **Encrypt All Web Communication (not including IPP)** on the printer. This can be done from the internal webpage under the Networking Tab >> Mgmt. Protocals.
+  - This allows the script to request the webpage, otherwise the script would fail to reach the webpage. 
   
   **Do this at your own risk as you are disabling a security feature on your printer**
 
